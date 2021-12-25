@@ -1,0 +1,231 @@
+.header
+{
+	
+  background-image: radial-gradient( #930909,#380303);
+  
+}
+.top-address
+{
+	display: inline-block;
+}
+
+.donate-button
+{
+	color: #930909; 
+	background: white; 
+	border: 2px solid; 
+	border-radius: 5px; 
+	height: 50px; 
+	width: 244px; 
+	text-align: center;"
+}
+.donate-button:hover 
+{
+	color: #ffffff;
+	background-color: #CA130D
+}
+
+.donate-button:active {
+	color: #ffffff;
+  background-color: #CA130D;
+  transform: translateY(4px);
+}
+a:link
+{
+	color: #ffffff;
+}
+.top-icons
+{
+	display: inline-block;
+	padding-inline: 2px;
+}
+
+.image-column
+  {
+  	
+  	height: 500px; 
+  	width: 700px;
+  }
+.drop-icon
+	{
+  display: flex;
+  justify-content: center;
+	} 
+.form-row-1
+{
+	display: flex;
+  justify-content: center;	
+}
+
+.form-row-2
+{
+	display: flex;
+  justify-content: center;	
+}
+
+.form-row-3
+{
+	display: flex;
+  justify-content: center;
+	position: relative;
+	left: 65px;
+}
+
+.selection-box
+{
+	margin-left: 20px;
+}
+
+.card
+{
+ 
+	padding: 20px; 
+	background-image: radial-gradient( #930909,#380303);
+	text-align: center;
+	color: white;
+}
+
+
+.register-btn
+{
+	color: #930909; 
+	background: white; 
+	border: 2px solid; 
+	border-radius: 5px; 
+	height: 45px; 
+	width: 130px; 
+	text-align: center;"
+}
+
+.register-btn:hover 
+{
+	color: #ffffff;
+	background-color: #CA130D
+}
+
+.register-btn:active {
+	color: #ffffff;
+  background-color: #CA130D;
+  transform: translateY(4px);
+}
+
+
+.home-newsletter .single {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.home-newsletter .single h2 {
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.home-newsletter .single .form-control {
+    height: 50px;
+    background: white;
+    border-color: transparent;
+    border-radius: 50px;
+}
+
+.home-newsletter .single .form-control:focus {
+    box-shadow: none;
+    border-color: #243c4f;
+}
+
+.home-newsletter .single .btn {
+    min-height: 50px;
+    border-radius: 0 50px 50px 0;
+    background: #243c4f;
+    color: #fff;
+}
+
+@media screen and (max-width: 1440px) 
+{
+        .video
+{
+    width: 630px;
+    height: 344px;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .image-column
+  {
+  	width: 500px;
+  }
+  .form-row-3
+{
+
+	position: relative;
+	
+}
+
+.selection-box
+{
+	
+    margin-left: 0px;
+}
+
+}
+
+@media (max-width:1024px) and (min-width:992px) {
+    .video
+{
+    width: 366px;
+    height: 227px;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+  .image-column
+  {
+  	display: none;
+  }
+ .logo
+	{
+  display: flex;
+  justify-content: center;
+	}  
+	.col-md-4
+	{
+    flex: 0 0 auto;
+    width: 50;
+	}
+	.card
+	{
+		margin-top: 23px;
+	}
+
+}
+@media screen and (max-width: 425px){
+	.form-row-3
+{
+
+	position: relative;
+	left: 0px;
+}
+ .video
+{
+    width: 220px;
+    height: 150px;
+}
+
+}
+
+@media screen and (max-width: 320px) {
+  .main-heading{font-size: 40px;}
+  .top-address{font-size: 13px;}
+  .address-heading{font-size: 13px;}
+
+}
+
