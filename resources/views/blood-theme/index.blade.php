@@ -19,21 +19,9 @@
 					</div>
 				</div>
 				
-				<div class="col-lg-2 top-bar-social" style="margin-top:8px;">
+				<div class="col-lg-2 top-bar-social" >
 					<div class="top-icons">
-						<a href="#"><i class="fa fa-facebook rounded-box"></i></a>
-					</div>
-					<div class="top-icons">
-						<a href="#"><i class="fa fa-twitter rounded-box"></i></a>
-					</div>
-					<div class="top-icons">
-						<a href="#"><i class="fa fa-google-plus rounded-box"></i></a>
-					</div>
-					<div class="top-icons">
-						<a href="#"><i class="fa fa-instagram rounded-box"></i></a>
-					</div>
-					<div class="top-icons">
-						<a href="#"><i class="fa fa-youtube rounded-box"></i></a>
+						<a href="#" style="color: white;"><i class="fa fa-user-circle fa-3x"></i></a>
 					</div>
 				</div>
 			</div>
